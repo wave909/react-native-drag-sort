@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { NativeSyntheticEvent, NativeScrollEvent, StyleProp,ViewStyle } from 'react-native'
+import { NativeSyntheticEvent, NativeScrollEvent, StyleProp,ViewStyle ,ScrollViewProps} from 'react-native'
 
 interface IProps{
   dataSource: any[];
@@ -42,6 +42,7 @@ interface AutoIProps extends IProps {
   bottomViewHeight?: number,
   onScrollListener?: (event: NativeSyntheticEvent<NativeScrollEvent>) => void,
   onScrollRef?: (ref: any) => void
+  scrollProps:ScrollViewProps
 }
 
 interface AnySizeIProps{
