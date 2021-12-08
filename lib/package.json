@@ -1,5 +1,5 @@
 {
-  "name": "react-native-drag-sort",
+  "name": "@wave909/react-native-drag-sort",
   "version": "2.4.4",
   "description": "Drag and drop sort control for react-native",
   "main": "index.js",
